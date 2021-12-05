@@ -1,1 +1,94 @@
-<mxfile host="app.diagrams.net" modified="2021-12-05T14:26:20.437Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" version="15.8.2" etag="4MUREt05KrQiaNZttGkl" type="github"><diagram id="-QTi2SNFgNy57zV5H8LS">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-12-05T16:11:05.978Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="f8tbERI5yFKfp8tLFNf3" version="15.8.2" type="github">
+  <diagram id="-QTi2SNFgNy57zV5H8LS" name="Page-1">
+    <mxGraphModel dx="2199" dy="977" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wwAJJHtNGIa45hp7eqK--3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wwAJJHtNGIa45hp7eqK--1" target="wwAJJHtNGIa45hp7eqK--2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wwAJJHtNGIa45hp7eqK--1" value="User types letter &quot;J&quot;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="20" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wwAJJHtNGIa45hp7eqK--7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wwAJJHtNGIa45hp7eqK--2" target="wwAJJHtNGIa45hp7eqK--6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wwAJJHtNGIa45hp7eqK--2" value="Pixel pattern stored in the RAM" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wwAJJHtNGIa45hp7eqK--4" value="Get pixel pattern of &quot;J&quot;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="200" y="120" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wwAJJHtNGIa45hp7eqK--9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wwAJJHtNGIa45hp7eqK--6" target="wwAJJHtNGIa45hp7eqK--8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wwAJJHtNGIa45hp7eqK--6" value="Reading a bit from the display buffer" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wwAJJHtNGIa45hp7eqK--13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wwAJJHtNGIa45hp7eqK--8" target="wwAJJHtNGIa45hp7eqK--12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wwAJJHtNGIa45hp7eqK--8" value="&lt;span&gt;Circuit in the Graphic card Generates Pixel on the fly&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wwAJJHtNGIa45hp7eqK--11" value="Using as an address" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="200" y="540" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wwAJJHtNGIa45hp7eqK--15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wwAJJHtNGIa45hp7eqK--12" target="wwAJJHtNGIa45hp7eqK--14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wwAJJHtNGIa45hp7eqK--12" value="read a byte from the character ROM" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wwAJJHtNGIa45hp7eqK--17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wwAJJHtNGIa45hp7eqK--14" target="wwAJJHtNGIa45hp7eqK--16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wwAJJHtNGIa45hp7eqK--14" value="shifting whatever it found there out the video port one bit at a time" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wwAJJHtNGIa45hp7eqK--26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wwAJJHtNGIa45hp7eqK--16" target="wwAJJHtNGIa45hp7eqK--25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wwAJJHtNGIa45hp7eqK--16" value="bits correspond to visible pixels along one scan line" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wwAJJHtNGIa45hp7eqK--28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wwAJJHtNGIa45hp7eqK--25" target="wwAJJHtNGIa45hp7eqK--27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wwAJJHtNGIa45hp7eqK--25" value="generate the next scan line" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wwAJJHtNGIa45hp7eqK--31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wwAJJHtNGIa45hp7eqK--27" target="wwAJJHtNGIa45hp7eqK--30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wwAJJHtNGIa45hp7eqK--35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wwAJJHtNGIa45hp7eqK--27" target="wwAJJHtNGIa45hp7eqK--34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wwAJJHtNGIa45hp7eqK--27" value="Does it reach the bottom?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="720" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wwAJJHtNGIa45hp7eqK--33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="wwAJJHtNGIa45hp7eqK--30" target="wwAJJHtNGIa45hp7eqK--25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wwAJJHtNGIa45hp7eqK--30" value="circuit reads from the next row of character data in each ROM entry" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="775" y="890" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wwAJJHtNGIa45hp7eqK--32" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="850" y="830" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wwAJJHtNGIa45hp7eqK--40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wwAJJHtNGIa45hp7eqK--34" target="wwAJJHtNGIa45hp7eqK--39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wwAJJHtNGIa45hp7eqK--34" value="it advances to the next line in display memory and wraps around to the first row of character memory" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="775" y="530" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="wwAJJHtNGIa45hp7eqK--36" value="Yes&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="845" y="670" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wwAJJHtNGIa45hp7eqK--39" value="Screen shows the letter &quot;J&quot;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="775" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
